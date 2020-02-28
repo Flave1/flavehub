@@ -1,0 +1,11 @@
+C:\Users\Developer_F\source\repos\flavehub\flavehub.SDK\bin\Debug\netstandard2.0\flavehub.SDK.deps.json
+C:\Users\Developer_F\source\repos\flavehub\flavehub.SDK\bin\Debug\netstandard2.0\flavehub.SDK.dll
+C:\Users\Developer_F\source\repos\flavehub\flavehub.SDK\bin\Debug\netstandard2.0\flavehub.SDK.pdb
+C:\Users\Developer_F\source\repos\flavehub\flavehub.SDK\bin\Debug\netstandard2.0\flavehub.Contracts.dll
+C:\Users\Developer_F\source\repos\flavehub\flavehub.SDK\bin\Debug\netstandard2.0\flavehub.Contracts.pdb
+C:\Users\Developer_F\source\repos\flavehub\flavehub.SDK\obj\Debug\netstandard2.0\flavehub.SDK.csprojAssemblyReference.cache
+C:\Users\Developer_F\source\repos\flavehub\flavehub.SDK\obj\Debug\netstandard2.0\flavehub.SDK.AssemblyInfoInputs.cache
+C:\Users\Developer_F\source\repos\flavehub\flavehub.SDK\obj\Debug\netstandard2.0\flavehub.SDK.AssemblyInfo.cs
+C:\Users\Developer_F\source\repos\flavehub\flavehub.SDK\obj\Debug\netstandard2.0\flavehub.SDK.csproj.CopyComplete
+C:\Users\Developer_F\source\repos\flavehub\flavehub.SDK\obj\Debug\netstandard2.0\flavehub.SDK.dll
+C:\Users\Developer_F\source\repos\flavehub\flavehub.SDK\obj\Debug\netstandard2.0\flavehub.SDK.pdb

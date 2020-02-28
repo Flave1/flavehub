@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29418.71
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "flavehub", "flavehub\flavehub.csproj", "{65C7CB69-1880-43B5-ABA9-4517A69556F5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "flavehub.SDK", "flavehub.SDK\flavehub.SDK.csproj", "{6097A846-F562-4A97-A18E-90030BCB51C9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "flavehub.Contracts", "flavehub.Contracts\flavehub.Contracts.csproj", "{DDBAFCDD-AF2D-4700-89DE-6C570B27F308}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "flavehub.SDK.Sample", "flavehub.SDK.Sample\flavehub.SDK.Sample.csproj", "{EE2CC7A0-7C11-4E1F-9B76-B5B603233E29}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "flavehub.IntegrationTest", "flavehub.IntegrationTest\flavehub.IntegrationTest.csproj", "{0BE9DB43-BFD3-4FB4-811A-4D0E414F8A27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "flavehubAPI.Moq", "flavehubAPI.Moq\flavehubAPI.Moq.csproj", "{B4FF762A-5622-480C-ACFC-0B1920AE5D19}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{65C7CB69-1880-43B5-ABA9-4517A69556F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65C7CB69-1880-43B5-ABA9-4517A69556F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65C7CB69-1880-43B5-ABA9-4517A69556F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65C7CB69-1880-43B5-ABA9-4517A69556F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6097A846-F562-4A97-A18E-90030BCB51C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6097A846-F562-4A97-A18E-90030BCB51C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6097A846-F562-4A97-A18E-90030BCB51C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6097A846-F562-4A97-A18E-90030BCB51C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDBAFCDD-AF2D-4700-89DE-6C570B27F308}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDBAFCDD-AF2D-4700-89DE-6C570B27F308}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDBAFCDD-AF2D-4700-89DE-6C570B27F308}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDBAFCDD-AF2D-4700-89DE-6C570B27F308}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE2CC7A0-7C11-4E1F-9B76-B5B603233E29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE2CC7A0-7C11-4E1F-9B76-B5B603233E29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE2CC7A0-7C11-4E1F-9B76-B5B603233E29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE2CC7A0-7C11-4E1F-9B76-B5B603233E29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BE9DB43-BFD3-4FB4-811A-4D0E414F8A27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BE9DB43-BFD3-4FB4-811A-4D0E414F8A27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BE9DB43-BFD3-4FB4-811A-4D0E414F8A27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BE9DB43-BFD3-4FB4-811A-4D0E414F8A27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4FF762A-5622-480C-ACFC-0B1920AE5D19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4FF762A-5622-480C-ACFC-0B1920AE5D19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4FF762A-5622-480C-ACFC-0B1920AE5D19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4FF762A-5622-480C-ACFC-0B1920AE5D19}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {17A76165-2711-435C-AF8B-C3165EAB2D20}
+	EndGlobalSection
+EndGlobal
