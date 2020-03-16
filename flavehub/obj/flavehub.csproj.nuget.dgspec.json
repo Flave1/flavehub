@@ -1,32 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Developer_F\\source\\repos\\flavehub\\flavehub\\flavehub.csproj": {}
+    "C:\\M_Projs\\flavehub\\flavehub.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Developer_F\\source\\repos\\flavehub\\flavehub.Contracts\\flavehub.Contracts.csproj": {
+    "C:\\M_Projs\\flavehub.Contracts\\flavehub.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Developer_F\\source\\repos\\flavehub\\flavehub.Contracts\\flavehub.Contracts.csproj",
+        "projectUniqueName": "C:\\M_Projs\\flavehub.Contracts\\flavehub.Contracts.csproj",
         "projectName": "flavehub.Contracts",
-        "projectPath": "C:\\Users\\Developer_F\\source\\repos\\flavehub\\flavehub.Contracts\\flavehub.Contracts.csproj",
-        "packagesPath": "C:\\Users\\Developer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Developer_F\\source\\repos\\flavehub\\flavehub.Contracts\\obj\\",
+        "projectPath": "C:\\M_Projs\\flavehub.Contracts\\flavehub.Contracts.csproj",
+        "packagesPath": "C:\\Users\\flave\\.nuget\\packages\\",
+        "outputPath": "C:\\M_Projs\\flavehub.Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Developer\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\flave\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\flave\\Desktop\\OWN\\Allschooldesk\\Allschooldesk\\nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -68,40 +67,39 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Developer_F\\source\\repos\\flavehub\\flavehub\\flavehub.csproj": {
+    "C:\\M_Projs\\flavehub\\flavehub.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Developer_F\\source\\repos\\flavehub\\flavehub\\flavehub.csproj",
+        "projectUniqueName": "C:\\M_Projs\\flavehub\\flavehub.csproj",
         "projectName": "flavehub",
-        "projectPath": "C:\\Users\\Developer_F\\source\\repos\\flavehub\\flavehub\\flavehub.csproj",
-        "packagesPath": "C:\\Users\\Developer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Developer_F\\source\\repos\\flavehub\\flavehub\\obj\\",
+        "projectPath": "C:\\M_Projs\\flavehub\\flavehub.csproj",
+        "packagesPath": "C:\\Users\\flave\\.nuget\\packages\\",
+        "outputPath": "C:\\M_Projs\\flavehub\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Developer\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\flave\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\flave\\Desktop\\OWN\\Allschooldesk\\Allschooldesk\\nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {
-              "C:\\Users\\Developer_F\\source\\repos\\flavehub\\flavehub.Contracts\\flavehub.Contracts.csproj": {
-                "projectPath": "C:\\Users\\Developer_F\\source\\repos\\flavehub\\flavehub.Contracts\\flavehub.Contracts.csproj"
+              "C:\\M_Projs\\flavehub.Contracts\\flavehub.Contracts.csproj": {
+                "projectPath": "C:\\M_Projs\\flavehub.Contracts\\flavehub.Contracts.csproj"
               }
             }
           }
@@ -142,6 +140,10 @@
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
               "version": "[3.0.0, )"
+            },
+            "Microsoft.AspNetCore.Cors": {
+              "target": "Package",
+              "version": "[2.2.0, )"
             },
             "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
               "target": "Package",
@@ -226,7 +228,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

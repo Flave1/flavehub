@@ -12,7 +12,7 @@ using System;
 using System.Reflection;
 
 [assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap4")]
-[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("flavehub, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "C:\\Users\\Developer_F\\source\\repos\\flavehub\\flavehub", "flavehub.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("flavehub, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "C:\\M_Projs\\flavehub", "flavehub.csproj", "0")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("flavehub.IntegrationTest")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]

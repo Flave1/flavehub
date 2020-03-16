@@ -48,7 +48,7 @@ namespace flavehub.Controllers
             catch (Exception ex)
             {
 
-                throw;
+                throw ex.InnerException;
             }
         }
 

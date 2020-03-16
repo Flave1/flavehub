@@ -6,3 +6,11 @@ C:\Users\Developer_F\source\repos\flavehub\flavehub.Contracts\obj\Debug\netstand
 C:\Users\Developer_F\source\repos\flavehub\flavehub.Contracts\obj\Debug\netstandard2.0\flavehub.Contracts.AssemblyInfo.cs
 C:\Users\Developer_F\source\repos\flavehub\flavehub.Contracts\obj\Debug\netstandard2.0\flavehub.Contracts.dll
 C:\Users\Developer_F\source\repos\flavehub\flavehub.Contracts\obj\Debug\netstandard2.0\flavehub.Contracts.pdb
+C:\M_Projs\flavehub.Contracts\bin\Debug\netstandard2.0\flavehub.Contracts.deps.json
+C:\M_Projs\flavehub.Contracts\bin\Debug\netstandard2.0\flavehub.Contracts.dll
+C:\M_Projs\flavehub.Contracts\bin\Debug\netstandard2.0\flavehub.Contracts.pdb
+C:\M_Projs\flavehub.Contracts\obj\Debug\netstandard2.0\flavehub.Contracts.csprojAssemblyReference.cache
+C:\M_Projs\flavehub.Contracts\obj\Debug\netstandard2.0\flavehub.Contracts.AssemblyInfoInputs.cache
+C:\M_Projs\flavehub.Contracts\obj\Debug\netstandard2.0\flavehub.Contracts.AssemblyInfo.cs
+C:\M_Projs\flavehub.Contracts\obj\Debug\netstandard2.0\flavehub.Contracts.dll
+C:\M_Projs\flavehub.Contracts\obj\Debug\netstandard2.0\flavehub.Contracts.pdb

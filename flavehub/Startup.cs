@@ -36,7 +36,8 @@ namespace flavehub
         }
 
         public IConfiguration Configuration { get; }
-         
+        readonly string MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
+
         public void ConfigureServices(IServiceCollection services)
         {
 
@@ -80,10 +81,15 @@ namespace flavehub
                 }
             });
 
+            app.UseRouting();
+
             var swaggerOptions = new Options.SwaggerOptions();
             Configuration.GetSection(nameof(Options.SwaggerOptions)).Bind(swaggerOptions);
 
             app.UseSwagger(option => { option.RouteTemplate = swaggerOptions.JsonRoute; });
+
+            app.UseCors(MyAllowSpecificOrigins);
+
             app.UseSwaggerUI(option => {
                 option.SwaggerEndpoint(swaggerOptions.UIEndpoint, swaggerOptions.Description);
             });
@@ -91,12 +97,16 @@ namespace flavehub
             app.UseHttpsRedirection();
             app.UseStaticFiles();
 
+
             app.UseAuthentication();
 
             app.UseExceptionHandler("/errors/500"); 
             app.UseStatusCodePagesWithReExecute("/errors/{0}");
-            app.UseMvc(); 
-
+            app.UseMvc();
+            app.UseEndpoints(endpoints =>
+            {
+                endpoints.MapControllers();
+            });
         }
     }
 }

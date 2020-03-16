@@ -13,6 +13,7 @@ namespace flavehub.Installers
 {
     public class DbInstaller : IInstaller
     {
+        readonly string MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
         public void InstallServices(IServiceCollection services, IConfiguration configuration)
         {
             services.AddDbContext<DataContext>(options =>
@@ -27,7 +28,17 @@ namespace flavehub.Installers
             services.AddScoped<ICommentService, CommentService>();
             services.AddScoped<ICategoryServices, CategoryService>();
             services.AddAutoMapper(typeof(Startup)); 
-            services.AddMediatR(typeof(Startup)); 
+            services.AddMediatR(typeof(Startup));
+            services.AddCors(options =>
+            {
+                options.AddPolicy(MyAllowSpecificOrigins,
+                builder =>
+                {
+                    builder.WithOrigins("http://localhost:4200")
+                    .AllowAnyHeader()
+                    .AllowAnyMethod(); ;
+                });
+            });
         }
     }
 }

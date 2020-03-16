@@ -159,7 +159,7 @@ namespace flavehub.Repository.Services
             catch (Exception ex)
             {
 
-                throw;
+                throw ex;
             }
         }
 
@@ -231,7 +231,7 @@ namespace flavehub.Repository.Services
             }catch(Exception ex)
             {
                 return new AuthenticationResult {
-                    Errors = new[] { "Something went wrong" }
+                    Errors = new[] { $"Something went wrong: {ex.InnerException.Message}" }
                 };
             }
             
@@ -266,7 +266,7 @@ namespace flavehub.Repository.Services
             catch (Exception ex)
             {
 
-                return false;
+                throw ex;
             }
         }
 
